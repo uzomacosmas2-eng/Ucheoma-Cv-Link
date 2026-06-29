@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ucheoma CV Studio | ATS CV Revamp in 24hrs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+  <!-- Hero -->
+  <header class="bg-blue-600 text-white text-center py-16 px-6">
+    <h1 class="text-4xl md:text-5xl font-bold">Get Hired Faster with an ATS CV</h1>
+    <p class="mt-4 text-lg max-w-2xl mx-auto">Professional CV + Cover Letter Revamp in 24hrs. Beat the bots, land interviews.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+      <a href="#pay" class="bg-white text-blue-600 font-bold py-3 px-6 rounded-xl shadow-lg hover:bg-gray-100">Start My CV Revamp</a>
+      <a href="https://wa.me/2347026557055<<< CHANGE THIS" target="_blank" class="bg-green-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg hover:bg-green-600">Chat on WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- Testimonials -->
+  <section class="max-w-5xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">What Clients Are Saying</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <p class="text-gray-700 italic">�Ucheoma revamped my CV and I got 3 interview invites in 2 weeks. Worth every naira.�</p>
+        <div class="mt-4 font-bold">� Chioma, Abuja | Admin Role</div>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <p class="text-gray-700 italic">�The ATS CV passed Jobberman bot and I finally got a callback. 24hr delivery was real.�</p>
+        <div class="mt-4 font-bold">� Tunde, Lagos | Tech Support</div>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <p class="text-gray-700 italic">�I used her Cover Letter template too. Landed a remote UK job. Highly recommend.�</p>
+        <div class="mt-4 font-bold">� Aisha, Kaduna | Customer Service</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-white py-16 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <details class="bg-gray-50 p-5 rounded-xl">
+          <summary class="font-bold cursor-pointer">How fast will I get my CV back?</summary>
+          <p class="mt-2 text-gray-700">24 hours after payment confirmation. If you need it in 6hrs, add ?1,000 for Express.</p>
+        </details>
+        <details class="bg-gray-50 p-5 rounded-xl">
+          <summary class="font-bold cursor-pointer">What if I don�t like the new CV?</summary>
+          <p class="mt-2 text-gray-700">You get 1 free revision included. Tell me what to change and I�ll fix it.</p>
+        </details>
+        <details class="bg-gray-50 p-5 rounded-xl">
+          <summary class="font-bold cursor-pointer">Is bank transfer safe? How do I know you�ll deliver?</summary>
+          <p class="mt-2 text-gray-700">Yes. Check reviews above. We only start work after your payment reflects in my account. No screenshot payment.</p>
+        </details>
+        <details class="bg-gray-50 p-5 rounded-xl">
+          <summary class="font-bold cursor-pointer">What format do I get?</summary>
+          <p class="mt-2 text-gray-700">You�ll get PDF + Word .docx so you can edit later. ATS optimized for Jobberman, LinkedIn, etc.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing + Bank Transfer -->
+  <section id="pay" class="bg-blue-50 py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-6">Step 1: Pay to Your Account</h2>
+    <div class="bg-white p-8 rounded-xl shadow max-w-2xl mx-auto text-center space-y-3">
+      <p class="text-lg"><b>Account Name:</b> Cosmas Nwagwu </p>
+      <p class="text-lg"><b>Account Number:</b> 0443419959</p>
+      <p class="text-lg"><b>Bank:</b> Wema</p>
+      <p class="text-lg font-bold">Amount: 3,000 for Basic CV | 5,000 for ATS + Cover Letter</p>
+      <p class="text-gray-600 text-sm">After payment, take a screenshot and upload it in Step 2 below ??</p>
+    </div>
+
+    <h2 class="text-3xl font-bold text-center mt-16 mb-6">Step 2: Send Your CV + Receipt</h2>
+    <form name="cv-order" method="POST" data-netlify="true" enctype="multipart/form-data" class="bg-white p-8 rounded-xl shadow space-y-4 max-w-2xl mx-auto">
+      <input type="hidden" name="form-name" value="cv-order">
+      <input type="text" name="name" placeholder="Full Name" required class="w-full p-3 border rounded-lg">
+      <input type="email" name="email" placeholder="Email / WhatsApp" required class="w-full p-3 border rounded-lg">
+      <input type="text" name="job" placeholder="Job Title You�re Targeting" required class="w-full p-3 border rounded-lg">
+      <label class="block text-left font-semibold">Upload Old CV</label>
+      <input type="file" name="cv" accept=".pdf,.doc,.docx" required class="w-full p-3 border rounded-lg">
+      <label class="block text-left font-semibold">Upload Payment Screenshot</label>
+      <input type="file" name="receipt" accept="image/*,.pdf" required class="w-full p-3 border rounded-lg">
+      <button type="submit" class="w-full bg-blue-600 text-white font-bold p-3 rounded-lg hover:bg-blue-700">Send for Revamp</button>
+    </form>
+  </section>
+
+  <!-- Sticky WhatsApp Button -->
+  <a href="https://wa.me/2347026557055<<< CHANGE target="_blank" 
+     class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.52 3.48A11.83 11.83 0 0012 0C5.37 0 0 5.37 0 12c0 2.11.55 4.18 1.6 6L0 24l6.14-1.6A11.94 11.94 0 0012 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.22-3.48-8.52zM12 22c-1.87 0-3.7-.5-5.3-1.44l-.38-.23-3.64.95.97-3.54-.24-.37A9.86 9.86 0 012 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.2-7.6c-.28-.14-1.64-.81-1.89-.9s-.44-.14-.62.14-.71.9-.87 1.08-.32.2-.6.07a8.05 8.05 0 01-2.37-1.47 8.93 8.93 0 01-1.65-2.06c-.17-.3.02-.46.14-.61.12-.13.28-.32.42-.48.14-.16.18-.28.28-.46.1-.18.05-.35-.02-.49s-.62-1.5-.85-2.05c-.22-.54-.45-.47-.62-.48l-.53-.01c-.18 0-.47.07-.71.34s-.94.92-.94 2.24 1 2.6 1.14 2.78 1.97 3.01 4.78 4.22c.67.29 1.19.46 1.6.59.67.21 1.28.18 1.76.11.54-.08 1.64-.67 1.87-1.31.23-.64.23-1.19.16-1.31s-.26-.2-.54-.34z"/>
+    </svg>
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>� 2026 Ucheoma CV Studio | Abuja, Nigeria | WhatsApp: +2347026557055</p>
+  </footer>
+
+</body>
+</html>
