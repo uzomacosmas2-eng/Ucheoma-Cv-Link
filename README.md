@@ -2,7 +2,7 @@
 
 A responsive personal CV website built with HTML, CSS, and Tailwind CSS.
 
-**Live Site:** https://YOUR-USERNAME.github.io/ucheoma-cv/
+**Live Site:** Https://uzomacosmas2-eng.github.io/ucheoma -cv/
 
 ---
 
